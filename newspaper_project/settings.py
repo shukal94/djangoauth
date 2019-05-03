@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # Local
     'users',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -64,6 +65,8 @@ EMAIL_HOST_USER = 'shukal94'
 EMAIL_HOST_PASSWORD = 'latinos11'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+TIME_ZONE = 'Europe/Minsk'
 
 TEMPLATES = [
     {
